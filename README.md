@@ -1,9 +1,1 @@
-Sample: boxFilterNPP
-Minimum spec: SM 2.0
-
-A NPP CUDA Sample that demonstrates how to use NPP FilterBox function to perform a Box Filter.
-
-Key concepts:
-Performance Strategies
-Image Processing
-NPP Library
+This project shows a CUDA-based method for converting a colour image to greyscale. The application uses both CPU and GPU processing to demonstrate the performance advantages of parallel computation on NVIDIA GPUs. The colour image is processed pixel by pixel to calculate the greyscale value using the luminosity method, which is then returned to the image data. The application saves the processed image to a new greyscale JPEG file.
